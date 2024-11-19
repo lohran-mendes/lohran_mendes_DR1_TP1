@@ -1,0 +1,13 @@
+h1, h2 {
+ color: rgb(40, 28, 28); 
+}
+h1, h2, p {
+  font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+p {
+  font-size: 1.125rem;
+}

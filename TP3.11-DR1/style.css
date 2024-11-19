@@ -1,0 +1,64 @@
+body {
+  background-color: gray;
+  margin: 0;
+}
+.centralizante {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+header {
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+footer {
+  background-color: gray;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+}
+picture{
+  position: absolute;
+  right: 0;
+}
+img {
+  height: 80px;
+}
+menu {
+  padding: 0;
+  justify-self: center;
+  width: 1000px;
+}
+
+a {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  background-color: rgba(109, 110, 110, 0.586);
+  padding: 15px;
+  list-style: none;
+  border: 1px solid black;
+}
+li:hover {
+  background-color: rgba(94, 95, 95, 0.874);
+}
+hr {
+  margin: 5px 0px;
+}
+section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

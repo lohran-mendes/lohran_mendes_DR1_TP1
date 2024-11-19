@@ -1,0 +1,21 @@
+.box {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+#id-1 {
+background-color: red;
+}
+#id-2 {
+background-color: green;
+  
+}
+#id-3 {
+background-color: blue;
+  
+}

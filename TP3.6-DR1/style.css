@@ -1,0 +1,15 @@
+.centralizados {
+display: flex;
+height: 60px;
+align-items: center;
+justify-content: center;
+}
+#vermelho {
+  background-color: red !important;
+}
+#azul {
+  background-color: blue !important;
+}
+#verde {
+  background-color: green !important;
+}

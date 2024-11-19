@@ -1,0 +1,24 @@
+img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 315px;
+  width: 851px;
+  margin-bottom: 24px;
+}
+.perfil:hover {
+background-image: url('https://marketplace.canva.com/EAD5U30aaXU/1/0/1600w/canva-fa%C3%A7a-o-que-%C3%A9-certo-c%C3%A9u-estrelado-facebook-capa-QAuM8BpOzic.jpg');
+ }
+
+header {
+  justify-content: center;
+  display: flex;
+}
+
+img.perfil {
+  position: absolute;
+  height: 315px;
+  width: 250px;
+  left: 245px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: aliceblue;
+}

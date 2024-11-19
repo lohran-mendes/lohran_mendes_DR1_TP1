@@ -1,0 +1,21 @@
+img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 315px;
+  width: 851px;
+  margin-bottom: 24px;
+}
+
+header {
+  justify-content: center;
+  display: flex;
+}
+
+.perfil {
+  position: absolute;
+  height: 315px;
+  width: 250px;
+  left: 245px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: aliceblue;
+}
