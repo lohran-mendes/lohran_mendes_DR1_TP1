@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --color: rgba(250, 235, 215, 0.822);
+}
+
 body {
   background-color: rgb(168, 163, 163);
   height: 100vh;
@@ -12,7 +16,7 @@ body {
 nav {
   margin: auto;
   
-  background-color: rgba(250, 235, 215, 0.822);
+  background-color: var(--color);
   padding: 20px;
   border-radius: 5px;
 }
@@ -26,7 +30,7 @@ ul {
       display: inline-block;
       width: 70px;
       text-decoration: none;
-      color: black;
+      color: var(--dark);
       padding: 15px 60px;
     }
   }
@@ -47,14 +51,14 @@ a:hover {
 }
 .container {
   box-sizing: border-box;
-  background-color: rgba(250, 235, 215, 0.418);
+  background-color: var(--color);
   max-width: 70%;
   border-radius: 10px;
   padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.125rem;
-  color: rgba(39, 37, 37, 0.918);
+  color: var(--dark);
   position: relative;
   && p{
     font-size: 1.125rem;
@@ -78,7 +82,7 @@ hr {
   right: 40px;
   top: 20px;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.664);
+  color: var(--dark);
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
 }

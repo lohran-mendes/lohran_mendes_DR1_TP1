@@ -10,12 +10,22 @@ header {
   display: flex;
 }
 
+.background {
+  position: relative;
+}
+
 .perfil {
   position: absolute;
   height: 315px;
   width: 250px;
-  left: 245px;
+  left: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  border-color: black;
   background-color: aliceblue;
 }
